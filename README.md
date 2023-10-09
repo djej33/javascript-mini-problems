@@ -1,5 +1,5 @@
 # JAVASCRIPT MINI PROBLEMS
-- Choose a problem and solve it in the `index.html` and `main.js` files ;)
+- Choose a problem and solve it in the `index.html` and `main.js` files ;
 
 ## PROBLEM 1 :  THE TASK MANAGER
 
