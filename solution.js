@@ -1,9 +1,6 @@
-let form = document.querySelector('#todo-form');
 let submit = document.querySelector('#todo-submit');
 let input = document.querySelector('#todo-input');
 let list = document.querySelector('#todo-list');
-
-
 function validateTodo(target){
    target.parentNode.classList.add('done');
    let myData = list.innerHTML;                // pour récupérer le contenu de la liste
@@ -22,7 +19,6 @@ function getLocalStorage(){
 function setLocalStorage(data){
     localStorage.setItem('blablabla', data);
 }
-
 window.onload = function(){                         //   onload: au chargement de la page
     let mySavedData = getLocalStorage();
     if(mySavedData != null){                        // si il y a des données dans le local storage
